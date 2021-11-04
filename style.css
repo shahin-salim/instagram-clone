@@ -1,0 +1,47 @@
+:root {
+     --border-color: #dbdbdb;
+     --bg-ffff-color: #fff;
+     --bg-fafafa-color: #fafafa;
+}
+nav input {
+     border: 0 solid var(--border-color);
+     background-color: var(--bg-fafafa-color);
+     outline: none;
+}
+nav {
+     background-color: var(--bg-ffff-color);
+}
+nav :first-child {
+     background-color: var(--bg-ffff-color);
+}
+.logo {
+     width: 225px;
+}
+.icons {
+     width: 242px;
+     background: #fff;
+}
+@media only screen and (max-width: 600px) {
+     .hide-input {
+          display: none;
+     }
+     .logo {
+          width: auto;
+     }
+     nav :first-child {
+          padding: 3px;
+          padding-top: 0;
+          padding-bottom: 0;
+     }
+}
+@media only screen and (max-width: 353px) {
+     .logo {
+          width: 30%;
+     }
+     .logo img {
+          width: 100%;
+     }
+     .icons {
+          width: 55%;
+     }
+}
