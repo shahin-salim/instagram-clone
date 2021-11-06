@@ -10,5 +10,16 @@ inputBox.addEventListener("click", function () {
 hideBtn.addEventListener("click", function () {
      inputBox.style.visibility = "visible";
 });
+const play = document.querySelector("video");
+let pAndP = 0 ;
+play.addEventListener("click",function(){
+     if(pAndP==0){
+          play.play();
+          pAndP++;
+     }else{
+          play.pause();
+          pAndP--;
+     }
+})
 
 

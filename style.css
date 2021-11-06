@@ -110,6 +110,38 @@ nav div input {
 section {
      padding-top: 32px;
 }
+
+.post {
+     margin-top: 22px;
+     border: 1px solid #dbdbdb;
+     background-color: #ffffff;
+}
+.ps-2 a {
+     font-size: 14px;
+     font-weight: 600;
+     color: #262626;
+     text-decoration: none;
+}
+.ps-2 a:hover {
+     text-decoration: underline;
+}
+.post-icons:hover {
+     color: rgb(142, 142, 142);
+}
+.type-1 {
+     font-size: 14px;
+     font-weight: 400;
+     color: #8e8e8e;
+}
+.hide-input-box {
+     display: flex;
+     align-items: center;
+     height: 52px;
+     margin-top: 12px;
+     padding-left: 16px;
+     padding-right: 16px;
+     border-top: 1px solid #dbdbdb;
+}
 @media only screen and (max-width: 600px) {
      .hide-input {
           display: none;
@@ -120,7 +152,16 @@ section {
      .section-div {
           padding-top: 2px;
      }
-     section{
+     section {
           padding-top: 1px;
      }
+     .post {
+          border: none;
+     }
+}
+@media only screen and (max-width: 750px) {
+     .hide-input-box {
+          display: none;
+     }
+
 }
