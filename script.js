@@ -10,3 +10,5 @@ inputBox.addEventListener("click", function () {
 hideBtn.addEventListener("click", function () {
      inputBox.style.visibility = "visible";
 });
+
+
