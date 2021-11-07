@@ -35,29 +35,6 @@ nav :first-child {
      width: 242px;
      background: #fff;
 }
-
-@media only screen and (max-width: 600px) {
-     .hide-input {
-          display: none;
-     }
-     .logo {
-          width: auto;
-     }
-     .section-div {
-          padding-top: 2px;
-     }
-}
-@media only screen and (max-width: 400px) {
-     .logo {
-          width: 30%;
-     }
-     .logo img {
-          width: 100%;
-     }
-     .icons {
-          width: 55%;
-     }
-}
 nav div input {
      font-weight: var(--font-weight-fourhundred);
      font-size: var(--font-size-fourteen);
@@ -77,15 +54,6 @@ nav div input {
      background-color: #b0b2b5;
      color: white;
 }
-
-@media only screen and (max-width: 1006px) {
-     nav :first-child {
-          padding: 5px;
-          padding-top: 0;
-          padding-bottom: 0;
-     }
-}
-
 .image-2 {
      width: 57px;
      position: absolute;
@@ -163,5 +131,33 @@ section {
      .hide-input-box {
           display: none;
      }
-
+}
+@media only screen and (max-width: 600px) {
+     .hide-input {
+          display: none;
+     }
+     .logo {
+          width: auto;
+     }
+     .section-div {
+          padding-top: 2px;
+     }
+}
+@media only screen and (max-width: 400px) {
+     .logo {
+          width: 30%;
+     }
+     .logo img {
+          width: 100%;
+     }
+     .icons {
+          width: 55%;
+     }
+}
+@media only screen and (max-width: 1006px) {
+     nav :first-child {
+          padding: 2px;
+          padding-top: 0;
+          padding-bottom: 0;
+     }
 }

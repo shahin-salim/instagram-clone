@@ -18,14 +18,14 @@ const vFour = document.getElementById("videoFour");
 let onOff = 0;
 let onOff_two = 0;
 let three = 0;
-let four = 0 ;
+let four = 0;
 
 vOne.addEventListener("click", function () {
      onOff_two = 0;
      three = 0;
      vTwo.pause();
      vThree.pause();
-     four = 0 ;
+     four = 0;
      vFour.pause();
      if (onOff == 0) {
           vOne.play();
@@ -57,7 +57,7 @@ vTwo.addEventListener("click", function () {
 vThree.addEventListener("click", function () {
      onOff = 0;
      onOff_two = 0;
-     four = 0 ;
+     four = 0;
      vOne.pause();
      vTwo.pause();
      vFour.pause();
@@ -74,7 +74,7 @@ vThree.addEventListener("click", function () {
 vFour.addEventListener("click", function () {
      onOff = 0;
      onOff_two = 0;
-     three = 0 ;
+     three = 0;
      vOne.pause();
      vTwo.pause();
      vThree.pause();
@@ -87,5 +87,3 @@ vFour.addEventListener("click", function () {
      }
      console.log("fourth");
 });
-
-
