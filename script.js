@@ -87,3 +87,8 @@ vFour.addEventListener("click", function () {
      }
      console.log("fourth");
 });
+
+goTop = document.getElementsByClassName("logo")[0]
+goTop.addEventListener("click",function(){
+     window.scrollTo(0, 0);
+})
